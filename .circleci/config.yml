@@ -18,7 +18,7 @@ jobs:
           command: npm install --save-dev jest jest-environment-jsdom
       - run:
           name: Run Unit Tests
-          command: npx jest Test.js
+          command: npx jest myapp.test.js
       - persist_to_workspace:
           root: .
           paths:
