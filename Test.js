@@ -24,6 +24,6 @@ test('shows new text when button is clicked', () => {
 
     // Assert
     expect(message.textContent).toBe(
-        'Hello! You clicked the button.'
+        'Hello! You Clicked the Button.'
     );
 });
