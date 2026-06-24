@@ -9,7 +9,7 @@ document.body.innerHTML = `
 
 function showText() {
     document.getElementById("message").textContent =
-        "Hello! You clicked the button.";
+        "Hello! You Clicked the Button.";
 }
 
 test('shows new text when button is clicked', () => {
